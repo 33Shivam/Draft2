@@ -134,7 +134,7 @@ class Homepage extends React.Component {
     </div>
 
     
-
+{/* here starts upadtes secttion */}
 
     <div className="real-time-updates">
       <div className="group1">
@@ -144,25 +144,25 @@ class Homepage extends React.Component {
         </div>
         <div className="tweets">Tweets</div>
       </div>
-      <div className="rectangle2" />
-      <img className="rectangle-icon11" alt="" src="/rectangle9.svg" />
-      <b className="headlines">Headlines</b>
-      <div className="rectangle3" />
-      <img className="rectangle-icon12" alt="" src="/rectangle9.svg" />
-      <b className="latest-donations">Latest Donations</b>
-    </div> </div>
+      <div className="rectangle2" >
+      <div className="rectangle-icon11" />
+      <div className="headlines">Headlines</div>
+      </div>
+      <div className="rectangle3" >
+      <div className="rectangle-icon12"/>
+      <div className="latest-donations">Latest Donations</div>
+      </div>
+    </div> 
+    </div>
 
 
-
-    <div className="report-section">
-      <div className="the-largest-community-of-photo1">
+{/*Here Starts Report Section*/}
+    <div className="report-section">  
         <div className="report-a-homeless">
           {" "}
           Report a Homeless Individual in Need
-        </div>
-      </div>
-      <div className="group">
-       
+        </div>      
+      <div className="group">       
         <b className="report">Report:</b>
         <div className="button21">
           <div className="button-child21" />
@@ -181,9 +181,13 @@ class Homepage extends React.Component {
         <div className="group-inner" />
         <input  type="text" className="group-inner"placeholder='Phone Number'/>
         <div className="rectangle-div" />
-        <input  type="text" className="rectangle-div"placeholder='Address'/>
-      </div>
-      <img className="rectangle-icon5" alt="" src="/rectangle5.svg" />
+        <input  type="text" className="rectangle-div"placeholder='Email'/>
+        <button class="button-6" role="button">Button 6</button>
+        <button class="button-18" role="button">Button 18</button>     
+         </div>
+      <div className="rectangle-icon5"  >
+        <button className="Get Location"/>
+        </div>
     </div>
 
 

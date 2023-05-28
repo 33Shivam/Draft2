@@ -325,112 +325,78 @@ margin-left: 1%;
 }
 
 
-.rectangle-icon10,
-.rectangle1 {
+
+.rectangle1,
+.rectangle2,
+.rectangle3 {
   position: absolute;
-  top: 110;
-  left: 0;
-  width: 429px;
-  
-}
-.rectangle1 {
+  top: 0%;
+  left: 3%;  
+  width: 21%;
+  height: 55%;
   background-color: var(--color-white);
   border: 1px solid var(--color-gray-100);
   box-sizing: border-box;
-  height: 560px;
-  margin-top: 89px;
   
 }
-.rectangle-icon10 {
-  height: 469px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.rectangle2 {
+  left: 28%;
+}
+
+.rectangle3{
+  left: 53%;
+}
+
+.rectangle-icon10,
+.rectangle-icon11,
+.rectangle-icon12
+ {
+  position: relative;
+  top: 0%;
+  left: 0%; 
+  height: 85%;
+  width: 100%;
+  object-fit:contain;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   border-bottom: 1px solid var(--color-gray-100); 
   overflow-y: auto;
   max-height: 100%;
-  
-  
-  
-
-}
-.group1,
-.tweets {
-  position: absolute;
-}
-.tweets {
-  top: 495px;
-  left: 66px;
-  letter-spacing: -0.01em;
-  line-height: 36px;
-  display: inline-block;
-  width: 301px;
-  height: 36px;
-
-  
 }
 .group1 {
-  top: 89px;
-  left: 112px;
-  width: 429px;
-  height: 560px;
+  position: relative;
+  
 }
+.tweets, 
 .headlines,
-.rectangle-icon11,
-.rectangle2 {
-  position: absolute;
-  top: 89px;
-  left: 625px;
-  width: 429px;
-}
-.rectangle2 {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gray-100);
-  box-sizing: border-box;
-  height: 560px;
-}
-.headlines,
-.rectangle-icon11 {
-  height: 469px;
-}
-.headlines {
-  top: 586px;
-  left: 689px;
-  letter-spacing: -0.01em;
-  line-height: 36px;
-  display: inline-block;
-  width: 301px;
-  height: 36px;
-}
-.rectangle-icon12,
-.rectangle3 {
-  position: absolute;
-  top: 89px;
-  left: 1139px;
-  width: 429px;
-}
-.rectangle3 {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gray-100);
-  box-sizing: border-box;
-  height: 560px;
-}
-.rectangle-icon12 {
-  height: 469px;
+.latest-donations {
+position: absolute;
+display: inline-block;
+bottom: 4.5%;
+left: 35%;  
 }
 .latest-donations {
-  position: absolute;
-  top: 584px;
-  left: 1202px;
-  letter-spacing: -0.01em;
-  line-height: 36px;
-  display: inline-block;
-  width: 301px;
-  height: 36px;
+  left: 25%;
 }
+
+
+
+.group1 {
+  top: 10%;
+  left: 10%;
+  width:100% ;
+  height:100%;
+}
+
+
+
+
+
+
+
+
 .real-time-updates {
   position: relative;
   background-color: var(--color-white);
@@ -445,6 +411,100 @@ margin-left: 1%;
 
 
 /* Report */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+
 
 .report-a-homeless {
     position: absolute;
@@ -779,3 +839,4 @@ margin-left: 1%;
     left: auto;
   }
 }
+
