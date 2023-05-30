@@ -49,6 +49,9 @@ const DrawerButton = styled.button`
 
 const SNavbar = styled.nav`
   background-color: #ffffff;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #e76f1f;
 `;
 const NavContainer = styled.div`
   padding: 5px;
@@ -59,6 +62,7 @@ const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   color:#E86E1F ;
+  
 `;
 const SNavbarBrand = styled.h2`
   font-size: 3rem;

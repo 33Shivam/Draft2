@@ -2,6 +2,8 @@ import React from 'react';
 import './homepage.css';
 import ScrollCount from './scrollCount.jsx';
 import TwitterTimeline from './twitter.jsx';
+import Map from './Dependencies/maps';
+
 
 
 
@@ -182,10 +184,11 @@ class Homepage extends React.Component {
         <input  type="text" className="group-inner"placeholder='Phone Number'/>
         <div className="rectangle-div" />
         <input  type="text" className="rectangle-div"placeholder='Email'/>
-        <button class="button-6" role="button">Button 6</button>
-        <button class="button-18" role="button">Button 18</button>     
+        <button class="button-6" role="button">Submit Request</button>
+        <button class="button-7" role="button">Upload Image</button>        
          </div>
       <div className="rectangle-icon5"  >
+      <Map />
         <button className="Get Location"/>
         </div>
     </div>

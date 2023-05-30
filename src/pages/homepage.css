@@ -125,6 +125,8 @@ margin-left: 1%;
   width: 498px;
   height: 297px;
   overflow: hidden;
+  border: 2px solid #e76f1f;  
+  border-radius: 10px;
 
 }
 .rectangle-icon7 {
@@ -142,8 +144,10 @@ margin-left: 1%;
   position: absolute;
   width: 498px;
   height: 297px;
-  top: 40%;
+  top: 48%;
   overflow: hidden;
+  border: 2px solid #e76f1f;  
+  border-radius: 10px;
 }
 .rectangle-icon9 {
   left: 50%;
@@ -437,6 +441,8 @@ left: 35%;
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
+  left: 10%;
+  top: 75%;
 }
 
 .button-6:hover,
@@ -457,55 +463,47 @@ left: 35%;
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
 }
-.button-18 {
-  align-items: center;
-  background-color: #0A66C2;
-  border: 0;
-  border-radius: 100px;
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
-  display: inline-flex;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 20px;
-  max-width: 480px;
-  min-height: 40px;
-  min-width: 0px;
-  overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
   text-align: center;
-  touch-action: manipulation;
-  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
-  vertical-align: middle;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  top: 75%;
+  left: 45%;
 }
 
-.button-18:hover,
-.button-18:focus { 
-  background-color: #16437E;
-  color: #ffffff;
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
 }
 
-.button-18:active {
-  background: #09223b;
-  color: rgb(255, 255, 255, .7);
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
 }
 
-.button-18:disabled { 
-  cursor: not-allowed;
-  background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
 }
-
-
-
-
 .report-a-homeless {
     position: absolute;
     height: 100%;
@@ -515,6 +513,7 @@ left: 35%;
     letter-spacing: -0.01em;
     line-height: 72px;
     display: inline-block;
+    color: #e76f1f;
   }
   .rectangle21,
   .the-largest-community-of-photo1 {
@@ -544,6 +543,7 @@ left: 35%;
     color: var(--color-black);
     width: 558px;
     height: 50.6px;
+    color: #e76f1f;
   }
   .button-child21 {
     position: absolute;
@@ -708,6 +708,8 @@ left: 35%;
   line-height: 50px;
   display: inline-block;
   height: 100px;
+  color: #e76f1f;
+  font-weight: 800;
 }
 
 .ellipse-icon9,

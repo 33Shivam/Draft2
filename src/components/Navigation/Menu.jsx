@@ -19,7 +19,7 @@ const Menu = ({ route }) => {
 export default Menu;
 const SubRoutesContainer = styled.div`
   position: absolute;
-  min-width: 32rem;
+  min-width: 20rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -72,7 +72,7 @@ const SubRoute = styled(Link)`
   &:hover {
     transition: 0.3s ease-in;
     color: #E86E1F ;
-    background-color: white
+    background-color: white;
     z-index: 1;
   }
 `;
