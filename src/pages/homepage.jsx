@@ -13,9 +13,9 @@ class Homepage extends React.Component {
     super(props);
     this.state = {
       banners: [
-        './public/images/banner1.jpg',
-        './public/images/banner2.jpg',
-        './public/images/banner3.jpg',
+        './images/banner1.jpg',
+        './images/banner2.jpg',
+        './images/banner3.jpg',
       ],
       currentBannerIndex: 0,
     };
