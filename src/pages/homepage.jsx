@@ -92,7 +92,7 @@ class Homepage extends React.Component {
           </b>
         </p>
       </div>
-      <img className="rectangle-icon13" alt="" img src= './public/images/rectangle10.jpg' />
+      <img className="rectangle-icon13" alt="" img src= './images/rectangle10.jpg' />
     </div>
 
 
@@ -206,11 +206,11 @@ class Homepage extends React.Component {
 
     <div className="organization-section">
       <div className="supporting-organisation">SUPPORTING ORGANISATION</div>
-      <img className="ellipse-icon9" alt="" img src= './public/images/ellipse.png'/>
-      <img className="ellipse-icon91" alt="" img src="./public/images/ellipse2.png"/>
-      <img className="ellipse-icon92" alt="" img src="./public/images/ellipse3.png" />
-      <img className="ellipse-icon93" alt="" img src= "./public/images/ellipse4.png" />
-      <img className="ellipse-icon94" alt="" img src="./public/images/ellipse4.png" />
+      <img className="ellipse-icon9" alt="" img src= './images/ellipse.png'/>
+      <img className="ellipse-icon91" alt="" img src="./images/ellipse2.png"/>
+      <img className="ellipse-icon92" alt="" img src="./images/ellipse3.png" />
+      <img className="ellipse-icon93" alt="" img src= "./images/ellipse4.png" />
+      <img className="ellipse-icon94" alt="" img src="./images/ellipse4.png" />
     
     </div>
     
