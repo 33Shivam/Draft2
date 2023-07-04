@@ -54,10 +54,10 @@ class Homepage extends React.Component {
     <div className="the-largest-community-of-photo">      
       <div className="rectangle-icon">
         <div className="additional">
-      <img className="rectangle-icon1" alt="" img src= './public/images/rectangle2.png'/>
-      <img className="rectangle-icon2" alt="" img src= './public/images/rectangle3.jpg' />
-      <img className="rectangle-icon3" alt="" img src= './public/images/rectangle4.png' />
-      <img className="rectangle-icon4" alt="" img src= './public/images/rectangle5.png' />
+      <img className="rectangle-icon1" alt="" img src= './images/rectangle2.png'/>
+      <img className="rectangle-icon2" alt="" img src= './images/rectangle3.jpg' />
+      <img className="rectangle-icon3" alt="" img src= './images/rectangle4.png' />
+      <img className="rectangle-icon4" alt="" img src= './images/rectangle5.png' />
       </div>
       
         <div className="the-largest-community">
